@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MockVPB" />
+        <module name="FMGatewayVPBank" />
+        <module name="FMCore" />
+        <module name="FMGatewayVCB" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FMCore" options="-parameters" />
+      <module name="FMGatewayVCB" options="-parameters" />
+      <module name="FMGatewayVPBank" options="-parameters" />
+      <module name="MockVPB" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+POST: http://localhost:6000/api/v1/chi_ho
+
+{
+    "customerCode": "640625",
+    "bank":"VPBank",
+    "targetNumber": "123123123",
+    "channelId": "abcd",
+    "channelRefNumber": "1231231231",
+    "requestDateTime": "15-08-2024 10:30:00",
+    "internalTransactionRefNo": "123445",
+    "paymentMode": "A",
+    "totalPaymentAmount": "100000",
+    "serviceId": "acb",
+    "signature":"5433"
+}
